@@ -1,0 +1,13 @@
+{
+    "name": "victory/todo-api",
+    "require": {
+        "php": "^8.1",
+        "firebase/php-jwt": "^6.4",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
