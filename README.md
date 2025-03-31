@@ -20,7 +20,7 @@
 ## Установка
 ```
 git clone https://github.com/german142000/vcgroup.git
-cd todo-api
+cd vcgroup
 composer install
 cp .env.example .env
 ```
@@ -33,9 +33,6 @@ cp .env.example .env
 
 Настройте .env файл:
 ```
-APP_ENV=development
-APP_URL=http://localhost
-
 DB_CONNECTION=pgsql
 DB_HOST=localhost
 DB_PORT=5432
